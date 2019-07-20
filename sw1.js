@@ -3,8 +3,6 @@ const cacheName = 'v2';
 // Install Event
 self.addEventListener('install', (e) => {
     console.log(`%cSW: ${e.type}`, 'font-weight: bold; color: deeppink');
-    console.log('hello');
-
 })
 
 // Activate Event
